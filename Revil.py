@@ -112,8 +112,8 @@ async def start_revil():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await idk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await idk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await idk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -136,8 +136,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -161,8 +161,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -186,8 +186,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -211,8 +211,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -236,8 +236,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await adk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await adk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await adk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -261,8 +261,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -287,8 +287,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -312,8 +312,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -338,8 +338,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await edk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await edk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await edk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -364,8 +364,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -390,8 +390,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -416,8 +416,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -442,8 +442,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -468,8 +468,8 @@ async def start_revil():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await sid(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await sid(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await sid(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -495,8 +495,8 @@ async def start_revil():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await shy(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await shy(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await shy(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -519,8 +519,8 @@ async def start_revil():
             print("Booting Up The Client 17")
             await aan.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await aan(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await aan(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await aan(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -543,8 +543,8 @@ async def start_revil():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await ake(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await ake(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await ake(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -567,8 +567,8 @@ async def start_revil():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await eel(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await eel(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await eel(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -591,8 +591,8 @@ async def start_revil():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await khu(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await khu(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await khu(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -615,8 +615,8 @@ async def start_revil():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
-            await shi(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await shi(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await shi(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await shi(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -639,8 +639,8 @@ async def start_revil():
             print("Booting Up The Client 22")
             await yaa.start()
             botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -663,8 +663,8 @@ async def start_revil():
             print("Booting Up The Client 23")
             await dav.start()
             botme = await dav.get_me()
-            await dav(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await dav(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await dav(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await dav(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -687,8 +687,8 @@ async def start_revil():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
-            await raj(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await raj(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await raj(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await raj(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -711,8 +711,8 @@ async def start_revil():
             print("Booting Up The Client 1")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_OFFICIAL"))
-            await put(functions.channels.JoinChannelRequest(channel="@REVIL_BOT_SUPPORT"))
+            await put(functions.channels.JoinChannelRequest(channel="@MANEY_OFFICAL_CHANNEL"))
+            await put(functions.channels.JoinChannelRequest(channel="@MANEY_BOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -784,8 +784,8 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By REVIL MULTISPAM Bot")
-            except Exception as e:
+                await event.edit("Succesfully Changed🔥 ⃟")
+           except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -826,7 +826,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("SUCCESSFULLY JOINED CHAL AB LADOO KHILA")
+                await event.edit("SUCCESSFULLY JOINED🔏")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -870,7 +870,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("SECRETLY JOINED CHAL AB ISSI KHUSHI MAIN DAARU PILA")
+                await event.edit("AB CHALO GAND MARNE😂🚬")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -958,7 +958,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("SUCCESSFULLY LEFT CHAL AB LADOO KHILA")
+                await event.edit("LEFT HOGAYA BOSS⚠️")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1410,7 +1410,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\nREVIL MULTISPAM BOT\n`{ms}` ᴍs")
+        await event.edit(f"🤖 𝗣𝗼𝗻𝗴! 𝗺𝘀\n`{ms}` ᴍs")
 
 
     
@@ -1569,7 +1569,7 @@ text = """
 
 print(text)
 print("")
-print("CONGRATS ! YOUR REVIL MULTISPAM BOT HAS STARTED SUCCESSFULLY. TYPE .ping OR .alive TO CHECK IF YOUR BOT'S ALIVE STATUS.")
+print("CONGRATS ! YOUR ITACHI MULTISPAM BOT HAS STARTED SUCCESSFULLY. TYPE .ping OR .alive TO CHECK IF YOUR BOT'S ALIVE STATUS.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
